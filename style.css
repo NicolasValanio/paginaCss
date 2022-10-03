@@ -4,3 +4,292 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primario:#434B4D;
+    --secundario: #0F0D1D;
+    --negro:black;
+    --botones: #3C72FC;
+    --otro:rgb(112,112,112,1);
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Jost:wght@500;700&display=swap');
+body{
+    font-family:  'Jost', sans-serif;
+    width: 100%;
+}
+header{
+    background-color: var(--primario);
+    display: flex;
+    width: 100%;
+    height: 107px;
+    border: solid var(--otro) 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline;
+
+}
+
+p{
+    color: white;
+}
+.logo{
+    width: 158px;
+    height: 107px;
+    background-image: url(./imgs/quick-fingers-removebg-preview\ 1.png);
+    background-position: center;
+    background-size: cover;
+    border-right: solid var(--otro) 1px;
+}
+nav{
+
+  
+    padding-top: 35px;
+}
+.logos{
+    width: 200px;
+    height: 107px;
+    margin-left: 233px;
+    display: flex;
+    border-right: solid var(--otro) 1px;
+
+
+}
+
+.logos-top{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+#ig{
+    background-image: url(./imgs/Icon\ feather-instagram.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+#in{
+    background-image: url(./imgs/Icon\ ionic-logo-linkedin.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+#tw{
+    background-image: url(./imgs/Icon\ ionic-logo-twitter.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+#f{
+    background-image: url(./imgs/Icon\ simple-facebook.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+
+.lupa{
+    width: 88px;
+    height: 107px;
+    border-right:solid var(--otro) 1px;
+
+    
+    
+}
+.lupaa{
+    width: 25px;
+    height: 25px;
+    background-image: url(./imgs/Icon\ feather-search.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 35px;
+}
+.helpp{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.number{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 930px;
+    background-color: var(--primario);
+    padding-top: 90px;
+    padding-left: 158px;
+}
+
+.welcome{
+    width: 218px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #3d4446;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 46px;
+}
+
+h1{
+    width: 418px;
+    height: 191px;
+    font-weight: 700;
+    font-size: 3.9rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.discover{
+    width: 175px;
+    height: 56px;
+    background-color: #3C72FC;
+    border: none;
+    color: white;
+    font-weight: bold ;
+
+}
+
+.container-2{
+    width: 100%;
+    height: 768px;
+    background-color: #0F0D1D;
+    margin-top: -230px;
+    padding-left: 156px;
+    padding-right: 156px;
+
+}
+ .real{
+    color: white;
+    text-align: center;
+    padding-top: 95px;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 60px;
+ }
+ .thebest{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(114, 111, 132, 1);
+    margin-bottom: 78px;
+ }
+
+ .conteiner-3{
+    width: 1037px;
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 107px;
+ }
+ .wealth{
+    width: 331px;
+    height: 210px;
+    background-color: black;
+
+ }
+ .a{
+    color: white;
+    width: 123px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 54px;
+    margin-bottom: 30px;
+ }
+ .read{
+    color: rgba(114, 111, 132, 1);
+    margin-left: 54px;
+    font-size: 12px;
+    font-weight: bold;
+ }
+
+ .img2{
+    width: 78px;
+    height: 71px;
+    background-image: url(./imgs/Icon\ awesome-bitbucket.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 216px;
+    margin-top: -35px;
+ }
+
+ .meet{
+    width: 1037px;
+    height: 15px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 62px;
+ }
+ .border{
+    width: 440px;
+    height: 1px;
+    border-top: solid rgba(50, 48, 61, 1) 1px;
+ }
+ .part{
+    font-size: 12px;
+    margin: 5px;
+    margin-top: -6px;
+    font-weight: 500;
+ }
+
+ .down{
+    width: 1037px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .flecha{
+    width: 36px;
+    height: 34px;
+    background: rgba(77, 123, 242, 0.17);
+    border: 1px solid rgba(60, 114, 252, 0.3);
+    background-image: url(./imgs/Icon\ awesome-arrow-left.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+ }
+ .brand{
+    width: 117px;
+    height: 23px;
+    background-color:#3C72FC;;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 5px;
+ }
+ .flechaa{
+    width: 36px;
+    height: 34px;
+    background: rgba(77, 123, 242, 0.17);
+    border: 1px solid rgba(60, 114, 252, 0.3);
+    background-image: url(./imgs/Icon\ awesome-arrow-right.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+ }
+ :hover.flecha,.flechaa,.discover,.lupaa,.logos-top,.read,.brand{
+    cursor: pointer;
+ }
+ .footer{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+ }
